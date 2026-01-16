@@ -105,4 +105,3 @@ minesweeper-game/
 This project is open source and available under the **MIT License**.
 
 ---
-Do you want me to do that next?
