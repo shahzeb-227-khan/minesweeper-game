@@ -82,7 +82,7 @@ class Game:
         my_theme.widget_font_size = 12
         self.gameover_menu = pygame_menu.Menu(heading, 240, 270, theme=my_theme)
         if heading == 'Game Over':
-            pygame.mixer.music.load("lose game.mp3")
+            pygame.mixer.music.load("lose.mp3")
             pygame.mixer.music.play()
             self.gameover_menu.add.label('You clicked on a mine!')
         elif heading == 'Game Cleared':
